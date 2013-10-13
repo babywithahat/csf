@@ -41,7 +41,14 @@ Reflection:
 
 I accidently uploaded this whole directory to github. That took forever. I dont reccomend that to anybody. any further pushes, even after the data directory was deleted, took way to long to proccess.
 
-git reset --hard delected all my previous commits and now I can push at normal times.
+i had to do
+git reset hard
+rm -r .git
+git init .. etc
+then git push csf master --force
+so that pushing to my repo wouldnt take so much time
+sadly I deleted all my commits, but it is probably for the better in this instance
+
 
 Problem 5:
 
