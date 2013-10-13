@@ -1,0 +1,92 @@
+Name: Alejandro Chavez 
+Evergreen Login: chaveza
+Computer Science Foundations
+Programming as a Way of Life
+Fall 2013
+Homework 3 
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file along with your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+GC-content: 0.3
+
+Problem 3:
+
+NameError: name 'linenum' is not defined
+Since linenum was not defined to integer 0, the program did not know how to define linenum to itself plus one.
+
+By commenting out gc_count = 0, we got the same error except pertaining to gc_count. Again, python did not know how to define gc_count to itself plus one.
+
+Problem 4:
+
+GC-content: 0.43029262963
+AT-content: 0.568993851852
+
+Collaboration:
+
+Just me
+
+Reflection:
+
+I accidently uploaded this whole directory to github. That took forever. I dont reccomend that to anybody. any further pushes, even after the data directory was deleted, took way to long to proccess.
+
+git reset --hard delected all my previous commits and now I can push at normal times.
+
+Problem 5:
+
+G count: 5738773
+C count: 5879128
+A count: 7701287
+T count: 7661547
+
+Problem 6:
+
+sample_1
+  sum count differed from total and seq count
+sample_2
+  sum count differed from total and seq count
+sample_3
+  sum count differed from total and seq count
+sample_4
+  sum count differed from total and seq count
+sample_5
+  sum count differed from total and seq count
+sample_6
+  sum count differed from total and seq count
+test-high-gc-1
+  sum count differed from total and seq count
+test-high-gc-2
+  sum count differed from total and seq count
+test-moderate-gc-1
+  sum count differed from total and seq count
+test-moderate-gc-2
+  sum count differed from total and seq count
+
+The sum count differed from total and seq count when there was a nucleotide that was not 'A','T','G',or 'C'. For example, line 2 in sample_5 started with 'N'. 
+
+Both total and seq count can be used as the denominator qhen computing the GC content because they both measure the same thing in different ways, and therefore will always be equal.
+
+Problem 7:
+
+AT/GC ratio: 1.322341747
+
+GC classification: Moderate
+
+Collaboration :
+
+just me
+
+Reflection:
+
+Organization is very important in code
