@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.2)  14 OCT 2013 20:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.2)  14 OCT 2013 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lab2_chaveza.tex
-(./Lab2_chaveza.tex
+**Assignment2_chaveza.tex template.tex
+(./Assignment2_chaveza.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -54,8 +54,9 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-) (./Lab2_chaveza.aux)
-\openout1 = `Lab2_chaveza.aux'.
+)
+(./Assignment2_chaveza.aux)
+\openout1 = `Assignment2_chaveza.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -69,7 +70,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
- (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count88
 \scratchdimen=\dimen105
@@ -134,73 +136,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 15.
 
-<onebithalfadder.png, id=1, 306.14375pt x 331.2375pt>
-File: onebithalfadder.png Graphic file (type png)
+<chapter2problem3.png, id=1, 125.46875pt x 347.2975pt>
+File: chapter2problem3.png Graphic file (type png)
 
-<use onebithalfadder.png>
-Package pdftex.def Info: onebithalfadder.png used on input line 30.
-(pdftex.def)             Requested size: 153.07149pt x 165.61833pt.
- <onebitfulladder.png, id=2, 720.6925pt x 523.9575pt>
-File: onebitfulladder.png Graphic file (type png)
+<use chapter2problem3.png>
+Package pdftex.def Info: chapter2problem3.png used on input line 48.
+(pdftex.def)             Requested size: 62.7342pt x 173.64832pt.
+ [1
 
-<use onebitfulladder.png>
-Package pdftex.def Info: onebitfulladder.png used on input line 54.
-(pdftex.def)             Requested size: 360.34537pt x 261.9781pt.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./chapter2problem3.png (PN
+G copy)>]
+<chapter2problem6.png, id=13, 140.525pt x 347.2975pt>
+File: chapter2problem6.png Graphic file (type png)
 
-Overfull \hbox (62.3454pt too wide) in paragraph at lines 53--55
-[] 
- []
+<use chapter2problem6.png>
+Package pdftex.def Info: chapter2problem6.png used on input line 78.
+(pdftex.def)             Requested size: 70.26231pt x 173.64832pt.
 
-[1
+<chapter2problem10.png, id=14, 60.225pt x 186.6975pt>
+File: chapter2problem10.png Graphic file (type png)
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./onebithalfadder.png (PNG
- copy)>] <4bitadder.png, id=13, 432.61626pt x 307.1475pt>
-File: 4bitadder.png Graphic file (type png)
+<use chapter2problem10.png>
+Package pdftex.def Info: chapter2problem10.png used on input line 100.
+(pdftex.def)             Requested size: 30.11241pt x 93.34851pt.
+ [2 <./chapter2problem6.png (PNG copy)>]
+<chapter2problem11.png, id=18, 70.2625pt x 256.96pt>
+File: chapter2problem11.png Graphic file (type png)
 
-<use 4bitadder.png>
-Package pdftex.def Info: 4bitadder.png used on input line 59.
-(pdftex.def)             Requested size: 216.3076pt x 153.57336pt.
- <logisim4bitadder.png, id=14, 208.78pt x 156.585pt>
-File: logisim4bitadder.png Graphic file (type png)
+<use chapter2problem11.png>
+Package pdftex.def Info: chapter2problem11.png used on input line 103.
+(pdftex.def)             Requested size: 35.13115pt x 128.47968pt.
 
-<use logisim4bitadder.png>
-Package pdftex.def Info: logisim4bitadder.png used on input line 64.
-(pdftex.def)             Requested size: 104.38972pt x 78.2923pt.
- [2 <./onebitfulladder.png (PNG copy)> <./4bitadder.png (PNG copy)>]
-Overfull \hbox (123.61186pt too wide) in paragraph at lines 72--87
- [] 
- []
+<chapter2problem12.png, id=19, 120.45pt x 246.9225pt>
+File: chapter2problem12.png Graphic file (type png)
 
-[3 <./logisim4bitadder.png (PNG copy)>] (./Lab2_chaveza.aux) ) 
+<use chapter2problem12.png>
+Package pdftex.def Info: chapter2problem12.png used on input line 106.
+(pdftex.def)             Requested size: 60.22484pt x 123.46094pt.
+ [3 <./chapter2problem10.png (PNG copy)> <./chapter2problem11.png (PNG copy)> <
+./chapter2problem12.png (PNG copy)>]
+(./Assignment2_chaveza.aux) ) 
 Here is how much of TeX's memory you used:
- 1500 strings out of 493311
- 21285 string characters out of 6143650
- 83182 words of memory out of 5000000
- 4968 multiletter control sequences out of 15000+600000
- 4284 words of font info for 16 fonts, out of 8000000 for 9000
+ 1506 strings out of 493311
+ 21551 string characters out of 6143650
+ 84182 words of memory out of 5000000
+ 4973 multiletter control sequences out of 15000+600000
+ 4246 words of font info for 16 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,6n,23p,244b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
-b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Lab2_chaveza.pdf (3 pages, 85420 bytes).
+ 37i,8n,23p,260b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb>
+Output written on Assignment2_chaveza.pdf (3 pages, 68703 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
