@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.2)  13 OCT 2013 19:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.2)  15 OCT 2013 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,56 +22,84 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./Assignment2_chaveza.aux)
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(./Assignment2_chaveza.aux)
 \openout1 = `Assignment2_chaveza.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 15.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 15.
- [1
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Assignment2_chaveza.aux
-) ) 
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--114
+
+ []
+
+[2] (./Assignment2_chaveza.aux) ) 
 Here is how much of TeX's memory you used:
- 223 strings out of 493311
- 2583 string characters out of 6143650
- 56195 words of memory out of 5000000
- 3761 multiletter control sequences out of 15000+600000
- 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 519 strings out of 493311
+ 5755 string characters out of 6143650
+ 58371 words of memory out of 5000000
+ 4036 multiletter control sequences out of 15000+600000
+ 5647 words of font info for 23 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 23i,4n,19p,189b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment2_chaveza.pdf (1 page, 42294 bytes).
+ 25i,4n,26p,189b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb>
+Output written on Assignment2_chaveza.pdf (2 pages, 63275 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
