@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.2)  22 OCT 2013 23:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.2)  23 OCT 2013 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -136,75 +136,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
 
-<lab3decoder1.png, id=1, 170.6375pt x 336.25626pt>
-File: lab3decoder1.png Graphic file (type png)
- <use lab3decoder1.png>
-Package pdftex.def Info: lab3decoder1.png used on input line 16.
-(pdftex.def)             Requested size: 85.31853pt x 168.12772pt.
+<assignment3bitwiseor.png, id=1, 311.1625pt x 158.5925pt>
+File: assignment3bitwiseor.png Graphic file (type png)
 
-<lab3decoder2.png, id=2, 200.75pt x 120.45pt>
-File: lab3decoder2.png Graphic file (type png)
- <use lab3decoder2.png>
-Package pdftex.def Info: lab3decoder2.png used on input line 19.
-(pdftex.def)             Requested size: 100.37474pt x 60.22484pt.
+<use assignment3bitwiseor.png>
+Package pdftex.def Info: assignment3bitwiseor.png used on input line 14.
+(pdftex.def)             Requested size: 155.58087pt x 79.29604pt.
 
-<lab3multiplexer1.png, id=3, 255.95625pt x 301.125pt>
-File: lab3multiplexer1.png Graphic file (type png)
+<assignment33to8decoder.png, id=2, 301.125pt x 181.67876pt>
+File: assignment33to8decoder.png Graphic file (type png)
 
-<use lab3multiplexer1.png>
-Package pdftex.def Info: lab3multiplexer1.png used on input line 26.
-(pdftex.def)             Requested size: 127.9778pt x 150.56212pt.
- <lab3multiplexer2.png, id=4, 140.525pt x 80.3pt>
-File: lab3multiplexer2.png Graphic file (type png)
+<use assignment33to8decoder.png>
+Package pdftex.def Info: assignment33to8decoder.png used on input line 17.
+(pdftex.def)             Requested size: 150.56212pt x 90.83914pt.
 
-<use lab3multiplexer2.png>
-Package pdftex.def Info: lab3multiplexer2.png used on input line 29.
-(pdftex.def)             Requested size: 70.26231pt x 40.14989pt.
- [1
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./lab3decoder1.png (PNG co
-py)> <./lab3decoder2.png (PNG copy)> <./lab3multiplexer1.png (PNG copy)>] <tiny
-alu.png, id=14, 453.695pt x 301.125pt>
-File: tinyalu.png Graphic file (type png)
+ []
 
-<use tinyalu.png>
-Package pdftex.def Info: tinyalu.png used on input line 36.
-(pdftex.def)             Requested size: 226.84694pt x 150.56212pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 21.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--32
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 40.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 40.
-[2 <./lab3multiplexer2.png (PNG copy)> <./tinyalu.png (PNG copy)>]
-(./Assignment3_chaveza.aux) ) 
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./assignment3bitwiseor.png
+ (PNG copy)> <./assignment33to8decoder.png (PNG copy)>]
+<assignment38bittinyalu.png, id=13, 487.8225pt x 339.2675pt>
+File: assignment38bittinyalu.png Graphic file (type png)
+
+<use assignment38bittinyalu.png>
+Package pdftex.def Info: assignment38bittinyalu.png used on input line 55.
+(pdftex.def)             Requested size: 243.91064pt x 169.63333pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--73
+
+ []
+
+[2 <./assignment38bittinyalu.png (PNG copy)>] (./Assignment3_chaveza.aux) ) 
 Here is how much of TeX's memory you used:
- 1505 strings out of 493311
- 21427 string characters out of 6143650
- 78182 words of memory out of 5000000
- 4972 multiletter control sequences out of 15000+600000
+ 1495 strings out of 493311
+ 21354 string characters out of 6143650
+ 79182 words of memory out of 5000000
+ 4964 multiletter control sequences out of 15000+600000
  4246 words of font info for 16 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,7n,23p,247b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Assignment3_chaveza.pdf (2 pages, 61475 bytes).
+ 37i,7n,23p,247b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+</us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Assignment3_chaveza.pdf (2 pages, 70808 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
