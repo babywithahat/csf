@@ -1,0 +1,83 @@
+\documentclass{article}
+\newcommand{\tab}{\hspace*{1em}}
+\usepackage{graphicx}
+\begin{document}
+\hfill Alejandro Chavez
+
+\hfill Assignment 5 - Discrete Mathematics
+
+\hfill \today\\
+
+\begin{center}\begin{large}Assignment 5\end{large}\end{center}	
+Chapter 3.1
+\begin{itemize}
+	\item
+		4)\\
+
+		procedure max difference($a_{1}, a_{2},...,a_{n}:$integers$)$\\
+		j$:=1$\\
+		k$:=2$\\
+    maxdiff $:=$ $0$\\
+		while (k $<$ n$+1$)\\
+		\hspace*{1em} diff $:= a_{j}-a_{k}$\\
+		\hspace*{1em} if diff $>$ maxdiff\\
+		\hspace*{1em} \hspace*{1em} maxdiff $:=$ diff\\
+	\item
+		10)\\
+		procedure exponentiate($x:$ floating point; $n:$ integer$)$\\
+		if (n $=$ $0$)\\
+		\hspace*{1em} return 1\\
+		k $:=$ 1\\
+    if (n $<$ $0$)\\
+		\tab k $:=$ $-1$\\
+		start $:=$ $1$\\
+		i $:=$ $1$\\
+		while (i$<$n$+1$)\\
+		\tab start $:=$ x$*$start\\
+		\tab i++\\
+		return k$*$start
+	\item
+		16)\\
+		procedure smallest int($a_{1},a_{2},...,a_{n}:$ integers$)$\\
+		small $=$ $a_{1}$\\
+		j $:=$ $2$\\
+		while (j $<$ n$+1$)\\
+		\tab if ($a_{j}$ $<$ small)\\
+		\tab \tab small $:=$ $a_{j}$\\
+		\tab j++\\
+		return small\\
+	\item
+		28)\\
+		procedure create sublist($a_{1},a_{2},...,a_{n}:$ integers)\\
+		objects $:=$ n\\
+		location $:=$ 0\\
+		for x $:=$ 1 to $4$\\
+		\tab length $:=$ floor(objects/($4-($x$-1$)))\\
+		\tab objects $:=$ objects$-$length\\
+		\tab for y $:=$ 1 to length\\
+		\tab \tab L[x][y] $:=$ a[y$+$location]\\
+		\tab location $:=$ location $+$ length\\
+		return L
+	\item
+		50)\\
+	\item
+		56)\\
+\end{itemize}
+Chapter 3.5
+\being{itemize}
+  \item
+  4)\\
+  \item
+  5)\\
+  \item
+  16)\\
+  \item
+  26)\\
+  \item
+  32)\\
+  \item
+  36)\\
+  \item
+  38)\\
+\end{itemize}
+\end{document}
