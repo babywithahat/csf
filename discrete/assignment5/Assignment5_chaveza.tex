@@ -63,21 +63,34 @@ Chapter 3.1
 	\item
 		56)\\
 \end{itemize}
-Chapter 3.5
-\being{itemize}
+Chapter 3.3
+\begin{itemize}
+  \item
+  1)\\
+  $n-1$
+  \item
+  2)\\
+  procedure inc. four terms($a_{1},a_{2},...,a_{n}:$ integers)\\
+    for y$:=1$ to 3\\
+  \tab steps$:=4-$y\\
+  \tab i$:=1$\\
+  \tab j$:=2$\\
+  \tab for x$:=1$ to steps\\
+  \tab \tab while ($j<=n$)\\
+  \tab \tab \tab if ($a_{i}>a_{j}$)\\
+  \tab \tab \tab \tab k$:=a_{i}$\\
+  \tab \tab \tab \tab $a_{i}:=a_{j}$\\
+  \tab \tab \tab \tab $a_{j}:=$k\\
+  \tab \tab \tab \tab j$++$\\
+  \tab \tab \tab \tab i$++$\\
+
+  This algorithm will always do the same number steps for any value of n except for the while statement for values of n less than 4, and thus has time complexity $O(1)$ in terms of the number of comparisons used..
   \item
   4)\\
+
   \item
-  5)\\
+  8)\\
   \item
   16)\\
-  \item
-  26)\\
-  \item
-  32)\\
-  \item
-  36)\\
-  \item
-  38)\\
 \end{itemize}
 \end{document}
