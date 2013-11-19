@@ -1,3 +1,0 @@
-1.6
-There are 10 bits in the control code.
-
