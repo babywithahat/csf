@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+\hfill Alejandro Chavez
+
+\hfill Assignment 7 - Digital Logic
+
+\hfill \today\\
+
+\begin{center}\begin{large}Assignment 7\end{large}\end{center}	
+Chapter 7
+\begin{itemize}
+  \item
+    1)\\
+    $(4+7)-2$
+  \item
+    2)\\
+    \begin{tabular}{rl|lll}
+    \multicolumn{2}{c}{Assembly language} & \multicolumn{3}{c}{Machine code translation} \\ 
+    Label &    Instr & Loc & Hex & Bin \\ \hline
+          &    Lda x &   0 &  0d & 0000 1101 \\
+          &    Sub y &   1 &  2e & 0010 1110 \\
+          &    Add w &   2 &  1c & 0001 1100 \\
+          &    Sub z &   3 &  2f & 0010 1111 \\
+          &      Out &   4 &  e0 & 1110 0000 \\
+          &      Hlt &   5 &  f0 & 1111 0000 \\
+          &          &     &     &           \\
+       w: &    Dat 3 &  12 &  03 & 0000 0011 \\   
+       x: &   Dat -1 &  13 &  ff & 1111 1111 \\
+       y: &    Dat 8 &  14 &  08 & 0000 1000 \\
+       z: & Dat -113 &  15 &  8f & 1000 1111 \\
+    \end{tabular}\\
+    The program should output 107.
+  \item
+    3)\\
+    See problem 2.
+  \item
+    4)\\
+    Four more bits.
+  \item
+    5)\\
+    \begin{tabular}{rl|lll}
+    \multicolumn{2}{c}{Assembly language} & \multicolumn{3}{c}{Machine code translation} \\ 
+    Label &    Instr & Loc & Hex & Bin \\ \hline
+          &    Lda y &   0 &  0f & 0000 1111 \\
+          &      Out &   1 &  e0 & 1110 0000 \\
+          &    Add x &   2 &  1e & 0001 1110 \\
+          &    Jmp 1 &   3 &  41 & 0100 0001 \\
+          &      Hlt &   4 &  f0 & 1111 0000 \\
+          &          &     &     &           \\
+       x: &    Dat 1 &  14 &  08 & 0000 1000 \\
+       y: &    Dat 0 &  15 &  00 & 0000 0000 \\
+    \end{tabular}\\
+    
+    Ahh, okay I realized I didn't have to do the table, but I accidentally did it so there it is.\\
+    Lda 0 Out Add 1 Jmp 1 Hlt
+  \item
+    6)\\
+    There is no instruction for multiplication.
+  \item
+    9)\\
+  \item
+    10)\\
+    Lda 55 Out Sub 5 Jaz 5 Jmp 1 Hlt
+  \item
+    11)\\
+    Lda 10 Out Sub 5 Jaz 5 Jmp 1 Hlt\\
+    
+    \begin{tabular}{rl|lll}
+    \multicolumn{2}{c}{Assembly language} & \multicolumn{3}{c}{Machine code translation} \\ 
+    Label &    Instr & Loc & Hex & Bin \\ \hline
+          &    Lda x &   0 &  0e & 0000 1110 \\
+          &      Out &   1 &  e0 & 1110 0000 \\
+          &    Sub y &   2 &  2f & 0010 1111 \\
+          &    Jaz 5 &   3 &  55 & 0101 0101 \\
+          &    Jmp 1 &   4 &  41 & 0100 0001 \\
+          &      Hlt &   5 &  f0 & 1111 0000 \\
+          &          &     &     &           \\
+       x: &   Dat 10 &  14 &  0b & 0000 1010 \\
+       y: &    Dat 5 &  15 &  05 & 0000 0101 \\
+    \end{tabular}
+\end{itemize}
+\end{document}
