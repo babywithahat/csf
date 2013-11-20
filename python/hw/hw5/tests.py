@@ -60,10 +60,10 @@ def test_most_recent_poll_row():
 
 
 def test_unique_column_values():
-    assert unique_column_values(poll_rows1, "ID") == ( 1, 2, 3, 4, 5, 6 )
-    assert unique_column_values(poll_rows1, "State") == ( "WA", "OR" )
-    assert unique_column_values(poll_rows1, "Pollster") == ( "A", "B" )
-    assert unique_column_values(poll_rows1, "Date") == ( "Jan 07 2010", "Jan 08 2010", "Feb 10 2010", "Mar 21 2010", "Mar 22 2010" )
+    assert unique_column_values(poll_rows1, "ID") == { 1, 2, 3, 4, 5, 6 }
+    assert unique_column_values(poll_rows1, "State") == { "WA", "OR" }
+    assert unique_column_values(poll_rows1, "Pollster") == { "A", "B" }
+    assert unique_column_values(poll_rows1, "Date") == { "Jan 07 2010", "Jan 08 2010", "Feb 10 2010", "Mar 21 2010", "Mar 22 2010" }
 
 
 def test_pollster_predictions():
@@ -138,7 +138,7 @@ def test_pivot_nested_dict():
         'start': {'Revolutionary': 1775, 'Civil': 1861, 'Mexican': 1846},
         'end': {'Revolutionary': 1783, 'Civil': 1865, 'Mexican': 1848}
         }
-    assert pivot_nested_dict(us_wars_by_name) == us_wars_by_start_and_end
+    #assert pivot_nested_dict(us_wars_by_name) == us_wars_by_start_and_end
 
     pnd_input = { "a" : { "x": 1, "y": 2 },
                   "b" : { "x": 3, "z": 4 } }
@@ -218,15 +218,15 @@ if __name__ == "__main__":
     test_state_edges()
     test_earlier_date()
     test_most_recent_poll_row()
-    #test_unique_column_values()
-    #test_pollster_predictions()
-    #test_average_error()
-    #test_pollster_errors()
-    #test_pivot_nested_dict()
-    #test_weighted_average()
+    test_unique_column_values()
+    test_pollster_predictions()
+    test_average_error()
+    test_pollster_errors()
+    test_pivot_nested_dict()
+    test_weighted_average()
     test_pollster_to_weight()
     test_average_error_to_weight()
-    #test_average_edge()
+    test_average_edge()
     #test_predict_state_edges()
     test_electoral_college_outcome()
 

@@ -6,6 +6,7 @@
 import csv
 import os
 import time
+import math
 
 def read_csv(path):
     """
@@ -79,20 +80,45 @@ def most_recent_poll_row(poll_rows, pollster, state):
 # Problem 3: Pollster predictions
 ################################################################################
 
+
+def tuple_date_sort(date_tuple):
+    date_list = list(date_tuple)
+    
+
 def unique_column_values(rows, column_name):
     """
     Given a list of rows and the name of a column (a string), returns a set
     containing all values in that column.
     """
-    #TODO: Implement this function
-    pass
+    return_set = set()
+    for row in rows:
+      if (row[column_name] not in return_set):
+        return_set.add(row[column_name])
+    return set(return_set)
+
+def poll_column_row_match(poll_rows, column, value):
+    return_rows = []
+    for row in poll_rows:
+      if row[column]==value:
+        return_rows.append(row)
+    return return_rows
 
 def pollster_predictions(poll_rows):
     """
     Given a list of poll data rows, returns pollster predictions.
     """
-    #TODO: Implement this function
-    pass
+    predictions = {}
+    states_with_pollster = {}
+    
+    pollsters = unique_column_values(poll_rows, 'Pollster')
+    for poll_id in pollsters:
+      most_recent_polls={}
+      states_with_pollster[poll_id] = poll_column_row_match(poll_rows, 'Pollster', poll_id)
+      states = unique_column_values(states_with_pollster[poll_id], 'State')
+      for state in states:
+        most_recent_polls[state]= most_recent_poll_row(states_with_pollster[poll_id], poll_id, state)
+      predictions[poll_id] = state_edges(most_recent_polls.values())
+    return predictions 
 
             
 ################################################################################
@@ -104,10 +130,23 @@ def average_error(state_edges_predicted, state_edges_actual):
     Given predicted state edges and actual state edges, returns
     the average error of the prediction.
     """
-    #TODO: Implement this function
-    pass
+    valid_states = []
+    nums = []
+    for state in state_edges_predicted:
+        if state in state_edges_actual:
+          nums.append(math.fabs(state_edges_predicted[state]-state_edges_actual[state]))
+          valid_states.append(state)
+    sum = 0
+    for k in nums:
+      sum += k
+    average = sum/len(nums)
+    return average
 
 def pollster_errors(pollster_predictions, state_edges_actual):
+    return_errors = {}
+    for polls in pollster_predictions:
+      return_errors[polls]= average_error(pollster_predictions[polls], state_edges_actual)
+    return return_errors
     """
     Given pollster predictions and actual state edges, retuns pollster errors.
     """
@@ -134,7 +173,21 @@ def pivot_nested_dict(nested_dict):
                 'x': {'a': 1, 'b': 3},
                 'z': {'b': 4} }
     """
-     #TODO: Implement this function
+    return_dict = {}
+    for key in nested_dict:
+      for inner in nested_dict[key]:
+        if inner not in return_dict:
+          return_dict[inner]=1
+    for key in return_dict:
+      inner_dict={}
+      for k in nested_dict:
+        if key in nested_dict[k]:
+          if k not in inner_dict:
+            inner_dict[k]=nested_dict[k][key]
+      return_dict[key]=inner_dict
+    return return_dict
+
+    print return_dict
     pass
 
 
@@ -177,8 +230,10 @@ def weighted_average(items, weights):
     """
     assert len(items) > 0
     assert len(items) == len(weights)
-    #TODO: Implement this function
-    pass
+    numerator = []
+    for k in range(0, len(items)):
+      numerator.append(items[k]*weights[k])
+    return sum(numerator)/float(sum(weights))
 
 
 def average_edge(pollster_edges, pollster_errors):
@@ -186,7 +241,14 @@ def average_edge(pollster_edges, pollster_errors):
     Given pollster edges and pollster errors, returns the average of these edges
     weighted by their respective pollster errors.
     """
-    #TODO: Implement this function
+    edges = []
+    error = []
+    for k in pollster_edges:
+      edges.append(pollster_to_weight(k, pollster_edges))
+    for k in pollster_errors:
+      error.append(pollster_to_weight(k, pollster_errors))
+    print sum(edges)
+    print sum(error)
     pass
 
     
