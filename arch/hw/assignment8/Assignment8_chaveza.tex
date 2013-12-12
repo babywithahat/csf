@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+\hfill Alejandro Chavez
+
+\hfill Assignment 8 - Digital Logic
+
+\hfill \today\\
+
+\begin{center}\begin{large}Assignment 8\end{large}\end{center}	
+Chapter 8
+\begin{itemize}
+  \item
+    1)\\
+    Mar, Ir, Acc, Out, Mem\\
+  \item
+    2)\\
+    Pc, Mar, Ir, Acc, Out, Mem\\
+    Yes, the RTA state includes the ISA state.\\
+  \item
+    3)\\
+
+  \item
+    4)\\
+  \item
+    5)\\
+    The hlt signal (0xF-) creates a signal that is feeds into a nand gate, so when the Hlt instruction is read, the nand gate is no longer outputing 1. This signal is fed into an AND gate to which the clock signal is also feeding into. So When the NAND gate is no longer outputing 1, the AND gate that the clock and the former signal is feeding into no longer can output 1, and the machine is literally halted.\\
+  \item
+    6)\\
+    4 bits = 15 opcodes.\\
+  \item
+    7)\\
+  \begin{tabular}{l|l}
+  Instruction & Format \\ \hline
+  Lda M & 000mmmmm \\
+  Add M & 001mmmmm \\
+  Sub M & 010mmmmm \\
+  Sta M & 011mmmmm \\
+  Jmp M & 100mmmmm \\
+  Jaz M & 101mmmmm \\
+  Out M & 110xxxxx \\
+  Hlt M & 111xxxxx \\
+  \end{tabular}
+  \item
+    8)\\
+  \item
+    9)\\
+  \item
+    10)\\
+\end{itemize}
+\end{document}
