@@ -1,0 +1,9 @@
+Please do the hw6 problems that Joseph Barnes wrote for you and commit it as hw6.py in your github repo.
+Also commit the problems file as hw6-theirs.html
+
+Also, write two problems on your own, in the same style as those your assigned partners did,
+Zach Adams and Whitney Barber, and commit them as hw6-ours.html in your github repo.
+
+Do this to get credit for hw6.
+
+Thanks, Paul
